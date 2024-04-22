@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>109</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>PROGRES</h1>
+
+    </header>
+    <main>
+
+        <section class="charset">
+            <nav>
+                <ul>
+                    <li>
+                        <h3>TRAINING STATISTICS</h3>
+                    </li>
+                    <li>
+                        <p>SHOW MORE</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <button class="navBtns">Week</button>
+                    </li>
+                    <li>
+                        <button class="navBtns">Month</button>
+                    </li>
+                    <li>
+                        <button class="navBtns">Year</button>
+                    </li>
+                    <li>
+                        <button class="navBtns">All time</button>
+                    </li>
+                </ul>
+            </nav>
+            <div class="top-chart">
+                <div class="topCHartLeft">
+                    <h1>0</h1>
+                    <p>Workouts</p>
+                </div>
+                <div class="topCHartCenter">
+                    <h1>0 <span>min</span></h1>
+                    <p>Duration</p>
+                </div>
+                <div class="topCHartRight">
+                    <h1>0 <span>cal</span></h1>
+                    <p>Calories</p>
+                </div>
+            </div>
+            <div class="center-chart">
+                <div>
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="">
+                    <p>
+                        Your stats will be shown here after you complete <br>
+                        your first workout
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="recent">
+            <div class="">
+                <h3>RECENT WORKOUTS</h3>
+            </div>
+            <div class="recent-text">
+                <p>
+                    Your workouts will be shown here after you completed your first one! Start one now!
+                </p>
+            </div>
+            <div class="recent-beetwin">
+                <div class=""> </div>
+                <button class="recent-btn">SHOW WORKOUTS</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
