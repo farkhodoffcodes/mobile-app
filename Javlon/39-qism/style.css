@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.box{
+    width: 413px;
+    height: 760px;
+    border: 2px solid #CCCCCC;
+    border-radius: 20px;
+}
+.navbar{
+
+    width: 390px;
+    height: 800px;
+    margin: 20px;  
+    font-family: sans-serif; 
+}
+.navbar-box{
+    width: 370px;
+    height: 200px;
+    background-color: #cccccc;
+    border-radius: 20px;
+}
+.navbar-yozuv{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.navbar-yozuv-1{
+    display: flex;
+    margin-top: 20px;
+    gap: 90px;
+}
+.chiziq{
+    width: 370px;
+    height: 2px;
+    background-color: #CCCCCC;
+    margin-top: 30px;
+}
+.navbar-yozuv-2{
+    width: 370px;
+    margin-top: 20px;
+    font-size: 17px;
+}
